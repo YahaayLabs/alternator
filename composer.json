@@ -1,10 +1,21 @@
 {
     "name": "yahaay-labs/alternator",
     "type": "library",
-    "keywords": ["test","alternator"],
+    "keywords": [
+    	"test",
+    	"alternator"
+    ],
     "homepage": "https://github.com/YahaayLabs/alternator",
     "license": "MIT",
     "description": "A short description of what your package does",
+    "authors": [
+        {
+            "name": "Gerald Villacarlos",
+            "email": "gerald@yahaay.com",
+            "homepage": "https://www.yahaay.com",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": "^7.2"
     },
