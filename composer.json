@@ -23,5 +23,6 @@
         "psr-4": {
         	"Alternator\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
