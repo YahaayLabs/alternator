@@ -1,5 +1,9 @@
 {
     "name": "yahaay-labs/alternator",
+    "type": "library",
+    "keywords": ["test","alternator"],
+    "homepage": "https://github.com/YahaayLabs/alternator",
+    "license": "MIT",
     "description": "A short description of what your package does",
     "require": {
         "php": "^7.2"
