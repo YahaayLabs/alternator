@@ -8,11 +8,16 @@ class Service {
 	
 	public function __construct($strMessage = null)
 	{
-		$this->strMessage = $strMessage;
+		$this->strMessage = $strMessage . 'from Service';
 	}
 
-	public static function getMessage()
+	public function getMessage()
 	{
 		return $this->strMessage;
+	}
+
+	public function setMessage($strMessage = null)
+	{
+		$this->strMessage = $strMessage;
 	}
 }

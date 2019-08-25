@@ -2,13 +2,13 @@
 
 namespace YahaayLabs\Alternator;
 
-class Service {
+class Alternator {
 
 	private $strMessage = "";
 	
 	public function __construct($strMessage = null)
 	{
-		$this->strMessage = $strMessage;
+		$this->strMessage = $strMessage . 'from Alternator';
 	}
 
 	public function getMessage()
