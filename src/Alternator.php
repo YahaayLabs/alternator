@@ -11,8 +11,13 @@ class Service {
 		$this->strMessage = $strMessage;
 	}
 
-	public static function getMessage()
+	public function getMessage()
 	{
 		return $this->strMessage;
+	}
+
+	public function setMessage($strMessage = null)
+	{
+		$this->strMessage = $strMessage;
 	}
 }
