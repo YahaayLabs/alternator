@@ -1,6 +1,6 @@
 <?php
 
-namespace YahaayLabs\Alternator;
+namespace YahaayLabs;
 
 class Service {
 

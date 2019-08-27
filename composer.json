@@ -2,8 +2,8 @@
     "name": "yahaay-labs/alternator",
     "type": "library",
     "keywords": [
-    	"test",
-    	"alternator"
+        "test",
+        "alternator"
     ],
     "homepage": "https://github.com/YahaayLabs/alternator",
     "license": "MIT",
@@ -19,10 +19,14 @@
     "require": {
         "php": "^7.2"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },    
     "autoload": {
         "psr-4": {
-        	"Alternator\\": "src/"
+            "Alternator\\": "src/"
         }
     },
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
